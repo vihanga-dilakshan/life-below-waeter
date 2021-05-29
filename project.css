@@ -1,0 +1,156 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    line-height: 20px;
+    color: #b1b4bd;
+    background-color: #323a45;
+
+}
+a{
+    color:#b1b4bd ;
+    font-weight: 500;
+}
+a:hover{
+    color: #e74c3e;
+}
+.header-background{
+    position: static;
+    display: block;
+    overflow: visible;
+    top: 0;
+    height: auto;
+    min-height: 750px;
+    margin-bottom: 2px;
+    padding-bottom: 70px;
+    flex-direction: column;
+    background-position: 0px 0px, 100% 50%;
+    background-size: auto, cover;
+    white-space: normal;
+    object-fit: fill;
+    background-image: url(image/bacground01.jpg);
+}
+.sticky-nav
+{
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0px;
+    padding: 20px;
+    -ms-flex-item-align: auto;
+    -ms-grid-row-align: auto;
+    order: 0;
+    background-color: rgba(12, 32, 59,0.5);
+
+
+}
+.navbar .nabar-brand a{
+    padding: 1rem;
+    display: block;
+    text-decoration: none;
+    font-size: 2.2rem;
+    color: white;
+
+
+}
+.navbar-brand{
+    font-size: 2.2rem;
+    color: white;
+
+}
+.navbar-toggler{
+    border: none;
+    padding: 10px 6px;
+    outline: none;
+}
+.navbar-toggler span{
+    display: block;
+    width: 22px;
+    height: 2px;
+    border: 1px;
+    background: #fff;
+}
+.navbar-toggler span + span{
+    margin-top: 4px;
+    width: 22px;
+}
+.navbar-toggler span + span +span{
+    width: 22px;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding: 1.4rem;
+    font-size: 1.2rem;
+    position: relative;
+   
+}
+.navbar-expand-lg .navbar-nav .nav-link.active {
+    color: #e74c3e;
+}
+.btn{
+    background-color: #e74c3e;
+    color: white;
+    border: 10px;
+    padding: 0.5rem 1.5rem 2rem;
+    font-size: 1rem;
+}
+.btn:hover{
+    background-color: #0a3d62;
+    color: white;
+
+}
+.heading{
+    font-size: 5rem;
+    font-weight: bold;
+    line-height: 1.4 ;
+    text-align: center;
+    color: #fff;
+    margin-top: 180px;
+    margin-bottom: 8px;
+    min-height: 100px;
+
+}
+.column-left{
+    min-height: 200px;
+    background-position: 0px 0px, 100% 50%;
+    background-size: auto, cover;
+    background-attachment: scroll, scroll;
+    object-fit: cover;
+    background-image: url(image/bacground02.jpg);
+
+}
+.column-right .section-title{
+    margin-top: 80px;
+    padding: 5rem 2rem 0rem 5rem;
+    font-size: 2.8rem;
+    color: #b1b4bd;
+    font-weight: 500;
+
+}
+.descriptoin{
+    margin-top: 15px;
+    padding: 1rem 5rem 1rem 5rem;
+    font-size: 1.1rem;
+    color: #b1b4bd;
+    line-height: 1.4;
+    text-align: justify;
+}
+.our-sevice-left{
+    margin-top: 15px;
+    padding: 1rem 5rem 1rem 5rem;
+    font-size: 1.1rem;
+    color: #b1b4bd;
+    line-height: 1.4;
+    text-align: justify;
+    
+}
+.our-sevice-right
+{
+    min-height: 200px;
+    background-position: 0px 0px, 100% 50%;
+    background-size: auto, cover;
+    background-attachment: scroll, scroll;
+    object-fit: cover;
+    background-image: url(image/bacground03.jpg);
+}
